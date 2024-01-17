@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgba(19, 19, 19, 0.9);
+}
+.container {
+  border: none;
+  box-shadow: 0.5px 0.5px 1px 2px white;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arithmetic-operator,
+.number,
+.ac,
+.del,
+.dot {
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.trigo-button {
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  padding: 3px;
+  background-color: rgba(19, 19, 19, 0.9);
+  box-shadow: 1px 1px 5px white;
+}
+.number,
+.dot {
+  background-color: grey;
+  box-shadow: 1px 1px 5px white;
+}
+.ac,
+.del {
+  background-color: darkred;
+  box-shadow: 1px 1px 5px white;
+}
+.arithmetic-operator {
+  background-color: grey;
+  box-shadow: 1px 1px 5px white;
+}
+input {
+  width: 260px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  text-align: right;
+  font-size: 3rem;
+
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  padding: 10px;
+}
+.watermark {
+  color: white;
+}
+.heart {
+  color: red;
+}
+.usage {
+  margin-top: 20px;
+  height: 30px;
+  background-color: darkblue;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
