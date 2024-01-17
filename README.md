@@ -4,5 +4,3 @@
 <p>HTML, CSS AND JAVASCRIPT</p>
 <h1>IDE:-</h1>
 <p>CODESANDBOX</p>
-<h1>PREVIEW:-</h1>
-<img src="WhatsApp Image 2024-01-17 at 23.49.02_fa119ac5.jpg" alt="/>
